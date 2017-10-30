@@ -1,0 +1,28 @@
+<?php
+require '../pages/bridge.php';
+
+$error = array();
+
+if(isset($_POST['name']) && !empty($_POST['name'])){
+
+		//Variables for partner table
+       echo $name = test_input($_POST['name']); echo '<br>';
+       echo $partner = test_input($_POST['partner']); echo '<br>';
+       echo $add_date = test_input($_POST['adddate']); echo '<br>';
+       
+       echo $caterogy = test_input($_POST['category']);
+       echo $popular = test_input($_POST['popular']); echo '<br>';
+       echo $area = test_input($_POST['area']); echo '<br>';
+
+		 $product_img = $_FILES['product_img']['temp_name'];
+		 
+		 //Server Time : DL/MB +5.30
+        //$created = '2017-10-06 16:28:30';
+        $created = date('Y-m-d H:i:s', time());
+        $last_edited = $created;
+        $last_published = $created;
+		 
+		 
+		 mysqli_query($db,'INSERT INTO `products`(`name`, `product_image`, `created`, `cat_key`, `partner_key`) VALUES ("'.$name.'","'.$product_image.'","'.$created.'", "'.$cat_key.'", "'.$par_key.'")');
+	}	 
+?>

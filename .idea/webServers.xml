@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e1e2ab75-55b8-498e-bfee-9d3f9ab61432" name="Localhost" url="http://localhost/fourspace">
+        <fileTransfer port="0" mountedRoot="C:\xampp\htdocs\fourspace" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="tpl" >
+
+    <title>FourSpace</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="img/icon_srt.png" rel="shortcut icon" type="image/x-icon" >
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="height:80px;">
+      <div class="container">
+        
+        <a style="float:left;" class="navbar-brand" href="#"><h5 style="margin-top:30px; color:red; padding: 1em .6em .1em .1em; border:10px solid red; font-weight:bolder;">four<br>space</h5></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+			 <ul class="nav navbar-nav">
+              <li class="dropdown nav-item">
+              <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+			     Bangalore            
+              <b class="caret"></b></a>
+                 <ul class="dropdown-menu">
+                    <li class="nav-item"><a class="nav-link" href="#">Delhi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Hyderabad</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Mumbai</a></li>
+                 </ul>
+               </li>
+          </ul>
+          <div class="col-sm-6 col-md-6" style="border-left:1px solid #333">
+            <form class="navbar-form" role="search">
+             <div class="input-group">
+             <input type="text" class="form-control" placeholder="Search" name="q" >
+               <div class="input-group-btn">
+                <button class="btn btn-link" type="submit"><i class="fa fa-search" aria-hidden="true"></i>
+</button>
+               </div>
+             </div>
+            </form>
+         </div>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="intro-header">
+      <div class="container">
+        <div class="intro-message">
+          <h1>FourSpace</h1>
+          <h3>Dekho, Parkho, Purchase Karo</h3>
+          <hr class="intro-divider">
+          <p>Have you ever sat idle at your couch wondering how will you ever make your recently purchased house into ‘your home’ that will define you completely? Or, worried if you cannot convert your small space into a habitable one? Well, you're not alone in this ship, and we won't let this ship sink in anyway!</p>
+          
+        </div>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+    <section class="content-section-a">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 ml-auto">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">Death to the Stock Photo:<br>Special Thanks</h2>
+            <p class="lead">A special thanks to
+              <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>
+              for providing the photographs that you see in this template. Visit their website to become a member.</p>
+          </div>
+          <div class="col-lg-5 mr-auto">
+            <img class="img-fluid" src="img/ipad.png" alt="">
+          </div>
+        </div>
+
+      </div>
+      <!-- /.container -->
+    </section>
+
+    <section class="content-section-b">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-5 mr-auto order-lg-2">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
+            <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by
+              <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
+          </div>
+          <div class="col-lg-5 ml-auto order-lg-1">
+            <img class="img-fluid" src="img/dog.png" alt="">
+          </div>
+        </div>
+
+      </div>
+      <!-- /.container -->
+
+    </section>
+    <!-- /.content-section-b -->
+
+    <section class="content-section-a">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-5 ml-auto">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
+            <p class="lead">This template features the 'Lato' font, part of the
+              <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as
+              <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
+          </div>
+          <div class="col-lg-5 mr-auto ">
+            <img class="img-fluid" src="img/phones.png" alt="">
+          </div>
+        </div>
+
+      </div>
+      <!-- /.container -->
+
+    </section>
+    <!-- /.content-section-a -->
+
+    <aside class="banner">
+
+      <div class="container">
+
+       
+
+      </div>
+      <!-- /.container -->
+
+    </aside>
+    <!-- /.banner -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="#">Home</a>
+          </li>
+          <li class="footer-menu-divider list-inline-item">&sdot;</li>
+          <li class="list-inline-item">
+            <a href="#about">About</a>
+          </li>
+          <li class="footer-menu-divider list-inline-item">&sdot;</li>
+          <li class="list-inline-item">
+            <a href="#services">Services</a>
+          </li>
+          <li class="footer-menu-divider list-inline-item">&sdot;</li>
+          <li class="list-inline-item">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <p class="copyright text-muted small">Copyright &copy; FourSpace 2017. All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>

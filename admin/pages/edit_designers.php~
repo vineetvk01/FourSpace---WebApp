@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<?php include_once 'bridge.php';
+		
+		if(!is_logged_in()){
+			die(header('location: login.php'));	
+		}
+?>
+<head>
+<?php include 'header.php'; ?>
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <?php include 'nav.php'; ?>
+
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Edit Designer</h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+<div class="row">
+                <div class="col-lg-6">
+                    <h5>Designers</h5>
+                    <div class="form-group input-group">
+                            <input type="text" class="form-control">
+                            <span class="input-group-btn">
+                             <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+                            </span>
+                            </input>
+                     </div>
+
+
+                    <div class="table-responsive">
+                          <table class="table">
+                              <thead>
+                                  <tr>
+                                      <th>#</th>
+                                      <th>Name</th>
+                                      <th>Username</th>
+                                      <th>Phone</th>
+                                      <th>Location</th>
+                                      <th>options</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                   <tr>
+                                      <td>1</td>
+                                      <td>Mark</td>
+                                      <td>@mdo</td>
+                                      <td>+91-9090909090</td>
+                                      <td>Bangalore</td>
+                                      <td><button class=" btn-link">Edit</button></td>
+                                   </tr>
+
+                              </tbody>
+                          </table>
+                    </div>
+                    <!-- /.table-responsive -->
+
+                    <div class="dataTables_paginate paging_simple_numbers" id="dataTables-example_paginate">
+                                <ul class="pagination">
+                                        <li class="paginate_button previous disabled" aria-controls="dataTables-example" tabindex="0" id="dataTables-example_previous">
+                                             <a href="#">Previous</a>
+                                        </li>
+                                        <li class="paginate_button active" aria-controls="dataTables-example" tabindex="0">
+                                             <a href="#">1</a>
+                                        </li>
+                                        <li class="paginate_button " aria-controls="dataTables-example" tabindex="0">
+                                             <a href="#">2</a>
+                                        </li>
+                                        <li class="paginate_button " aria-controls="dataTables-example" tabindex="0">
+                                              <a href="#">3</a>
+                                        </li>
+                                        <li class="paginate_button " aria-controls="dataTables-example" tabindex="0">
+                                              <a href="#">4</a>
+                                        </li>
+                                        <li class="paginate_button " aria-controls="dataTables-example" tabindex="0">
+                                              <a href="#">5</a>
+                                        </li>
+                                        <li class="paginate_button next" aria-controls="dataTables-example" tabindex="0" id="dataTables-example_next">
+                                              <a href="#">Next</a>
+                                        </li>
+                                </ul>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-6">
+                       <div class="panel panel-default">
+                             <div class="panel-heading">
+                                   Designer Data
+                             </div>
+                             <div class="panel-body">
+                                  <div class="row">
+                                      <div class="col-lg-10">
+                                         <form role="form">
+                                              <div class="form-group">
+                                                    <label>Name</label>
+                                                    <input class="form-control">
+                                                    <p class="help-block">The name of the designer.</p>
+                                              </div>
+                                         <div class="form-group">
+                                                  <label>Status</label>
+                                                  <select class="form-control" name="status" required>
+                                                   <option>new</option>
+                                                   <option>verified</option>
+                                                   <option>unverified</option>
+                                                 </select>
+                                                 <p class="help-block">The status of the designer.</p>
+                                                </div>
+                                               <div class="form-group">
+                                                <label>Profession</label>
+                                                <input class="form-control" type="text" name="profession">
+                                                <p class="help-block">The profession of the designer.</p>
+                                               </div>
+                                               <div class="form-group">
+                                                <label>Contact</label>
+                                                <input class="form-control" type="text" name="contact">
+                                                <p class="help-block">The contact number of the designer.</p>
+                                               </div>
+                                               <div class="form-group">
+                                                <label>website</label>
+                                                <input class="form-control" type="text" name="website">
+                                                <p class="help-block">The website of the designer.</p>
+                                               </div>
+                                               <div class="form-group">
+                                                <label>Qualification</label>
+                                                <input class="form-control" type="text" name="qualification">
+                                                <p class="help-block">The qualification of the designer.</p>
+                                               </div>
+                                               <div class="form-group">
+                                                <label>Acreditions</label>
+                                                <input class="form-control" type="text" name="acreditions">
+                                                <p class="help-block">The Acreditions of the designer.</p>
+                                               </div>
+                                               <div class="form-group">
+                                                <label>Practice</label>
+                                                <input class="form-control" type="text" name="practice">
+                                                <p class="help-block">The practice of the designer.</p>
+                                               </div>
+
+                                               <div class="form-group">
+                                                <label>Location</label>
+                                                <textarea class="form-control" rows="3" name="location"></textarea>
+                                               </div>
+                                               <div class="form-group" style="padding-top:0px;"><label> space for profile image</label></div><br/>
+                                               <div class="form-group" style="padding-top:80px"><label> space for cover image</label></div><br/>
+                                               <div class="form-group" style="padding-top:90px">
+                                                <label>Experience</label>
+                                                <input class="form-control" type="number" name="experience">
+                                                <p class="help-block">The experience of the designer.</p>
+                                               </div>
+                                               <div class="form-group">
+                                                <label>About</label>
+                                                <textarea class="form-control" rows="3" name="about" ></textarea>
+                                                <p class="help-block">About designer.</p>
+                                               </div>
+                                              <div class="form-group">
+                                              <button type="submit" class="btn btn-primary">Submit</button>
+                                              </div>
+
+                                         </form>
+                                      </div>
+                                  </div>
+                             </div>
+                       </div>
+                </div>
+
+            </div>
+         </div>
+
+
+
+
+         </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+
+    <!-- Morris Charts JavaScript -->
+    <script src="../vendor/raphael/raphael.min.js"></script>
+    <script src="../vendor/morrisjs/morris.min.js"></script>
+    <script src="../data/morris-data.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+
+</body>
+
+</html>
